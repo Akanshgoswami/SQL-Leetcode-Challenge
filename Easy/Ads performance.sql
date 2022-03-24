@@ -17,6 +17,9 @@
 
 -- Performance of the Ad is measured using Click-Through Rate (CTR) where:
 
+CTR = 0, if Ad total clicks + Ad total views = 0;
+CTR = (Ad total clicks) / (Ad total clicks + Ad total views) * 100, otherwise.
+
 
 
 -- Write an SQL query to find the ctr of each Ad.
